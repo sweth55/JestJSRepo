@@ -1,6 +1,6 @@
 const handler = async (event) => {
     try {
-        console.log("EVENT Testing:", JSON.stringify(event));
+        console.log("EVENT :", JSON.stringify(event));
 
         const { operation, num1, num2 } = event;
 
